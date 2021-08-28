@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Open+Sans:wght@400;700&display=swap');
+
+* {
+    margin : 0;
+    padding : 0;
+}
+
+body {
+    background-color : #F9FBFE;
+}
+
+.container {
+    width : 768px;
+    margin : 25px auto;
+    padding : 25px;
+    background-color : #B6D5F6;
+    border-radius : 10px;
+}
+
+.biodata {
+    display : flex;
+    flex-direction : row;
+}
+
+.biodata-data {
+    display : flex;
+    flex-direction : column;
+    justify-content : space-between;
+    padding : 0 20px;
+}
+
+.bahasa {
+    display : flex;
+    flex-wrap : wrap;
+    justify-content : space-around;
+}
+
+.button {
+    margin-left : auto;
+    margin-right:  auto;
+    text-decoration : none;
+    color : white;
+    background-color: rgba(2, 48, 71, 1);
+    padding : 10px 40px;
+    border-radius : 10px;
+    font-family : 'Open-sans', sans-serif;
+}
+
+.button:hover {
+    color : black;
+    background-color: #B6D5F6;
+    transition : 0.5s;
+}
+
+.button-wrapper {
+    display : flex;
+    align-items : center;
+}
+
+/*
+    Modifikasi teks
+*/
+h1 {
+    font-family : 'Montserrat', sans-serif;
+    font-size : 24px;
+}
+
+p {
+    font-family : 'Open-sans', sans-serif;
+    font-size : 16px;
+}
+
+ul {
+    list-style-type : none;
+}
+
+li {
+    font-family : 'Open-sans', sans-serif;
+    margin : 10px 0;
+}
+
+/* 
+    Class untuk isi
+*/
+
+.foto {
+    height : 250px;
+    width : 250px;
+}
+
+.text-center {
+    text-align : center;
+    padding-bottom : 20px;
+}
+
+hr {
+    margin : 20px 0;
+    background-color : black;
+    border-color : black;
+}
